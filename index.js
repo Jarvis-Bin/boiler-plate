@@ -3,7 +3,7 @@ const app = express()
 const port = 3000
 const bodyParser = require('body-parser');
 
-const config = require('./config/key')
+const config = require('./config/key');
 
 // register에서 User 모델을 사용하기 위함
 const { User } = require("./models/User");
